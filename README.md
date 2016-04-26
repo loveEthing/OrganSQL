@@ -1,4 +1,5 @@
 使用Druid开源解析工具，对SQL查询语句解析，提取所有真实表名和表对应的字段名。
+
 以下是测试例子，你可以很容易得到结果：
 1.
 String sql = "select a aa,b bb,c cc from x xx";
