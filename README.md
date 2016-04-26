@@ -32,7 +32,7 @@ TABLES:
 　　IsSelectAll:false    
 　　COLUMNS:[id]    
 　@NAME:x    
-　　IsSelectAll:false    
+　　IsSelectAll:false     
 　　COLUMNS:[id]    
 UnknowedColumnsWithTable:    
 　@TABLENAME:y   COLUMNS:[a, b, c]    
