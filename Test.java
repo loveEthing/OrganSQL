@@ -1,4 +1,3 @@
-```Java
 import com.zl.sql.ZData;
 import com.zl.sql.ZSelect;
 public class Test {
@@ -12,4 +11,3 @@ public class Test {
 		System.out.println("解析用时:"+(end-start)+"ms");
 	}
 }
-```
