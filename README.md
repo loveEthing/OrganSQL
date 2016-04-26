@@ -19,7 +19,7 @@ TABLES:
 多表连接查询语句，对于有些列名，SQL解析层面难以做到匹配列对应真实表名.   
 例： select a,b,c from x left join y on x.id=y.id;    
 对于这样的情况，   
-```
+```Java
 String sql = "select a,b,c from x left join y on x.id=y.id";    
 ZSelect select = new ZSelect();     
 ZData data = select.parseSelect(sql);    
