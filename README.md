@@ -5,14 +5,8 @@
 ######1. 单表    
 ```
 String sql = "select a aa,b bb,c cc from x xx";    
-```
-```
 ZSelect select = new ZSelect();     
-```
-```
 ZData data = select.parseSelect(sql);    
-```
-```
 System.out.println(data);    
 ```    
 以上执行会输出如下结果   
@@ -27,14 +21,8 @@ TABLES:
 对于这样的情况，   
 ```
 String sql = "select a,b,c from x left join y on x.id=y.id";    
-```
-```
 ZSelect select = new ZSelect();     
-```
-```
 ZData data = select.parseSelect(sql);    
-```
-```
 System.out.println(data);    
 ```    
 
