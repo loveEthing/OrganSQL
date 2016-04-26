@@ -3,7 +3,7 @@
      
 以下是测试例子，你可以很容易得到结果：   
 ######1. 单表    
-```
+```Java
 String sql = "select a aa,b bb,c cc from x xx";    
 ZSelect select = new ZSelect();     
 ZData data = select.parseSelect(sql);    
