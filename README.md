@@ -38,4 +38,4 @@ UnknowedColumnsWithTable:
 　@TABLENAME:y   COLUMNS:[a, b, c]    
 　@TABLENAME:x   COLUMNS:[a, b, c]    
 其中，UnknowedColumnsWithTable表示不清楚表名和列名的对应关系，但是可以    
-清楚的是，表x和表y可能含有a,b,c三个列中的几个或全部。   
+清楚的是，表x和表y可能含有a,b,c三个列中的几个或全部。    
